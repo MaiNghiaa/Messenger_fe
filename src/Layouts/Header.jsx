@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-
+// import Features from "../Page/Features/Features";
+import { Link } from "react-router-dom";
 export default class Header extends Component {
   render() {
     return (
-      <header className="bg-white">
+      <header className="bg-white fixed top-[0] left-0 right-0 h-[112px]">
         <div className="py-9 px-32 flex justify-between items-center">
           <div className="Logo">
             <img
@@ -15,14 +16,20 @@ export default class Header extends Component {
           <div className="Navigation pr-4">
             <ul className="nav-list flex gap-9">
               <li className="nav-item">
-                <a href="#!" className="nav-item_link text-[14px] font-[500]">
+                <Link
+                  to="/features"
+                  className="nav-item_link text-[14px] font-[500]"
+                >
                   Features
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#!" className="nav-item_link text-[14px] font-[500]">
+                <Link
+                  to="/Desktop"
+                  className="nav-item_link text-[14px] font-[500]"
+                >
                   Desktop app
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="#!" className="nav-item_link text-[14px] font-[500]">
@@ -31,7 +38,10 @@ export default class Header extends Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#!" className="nav-item_link text-[14px] font-[500]">
+                <a
+                  href="https://developers.facebook.com/products/messenger/"
+                  className="nav-item_link text-[14px] font-[500]"
+                >
                   For developers
                 </a>
               </li>
