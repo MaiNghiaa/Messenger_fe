@@ -1,11 +1,11 @@
+import React from "react";
 import "./index.css";
-
+import Index from "../src/Page/Index";
 function App() {
   return (
+    // eslint-disable-next-line react/react-in-jsx-scope
     <div className="App">
-      <h1 className="text-[10px] font-bold underline text-sky-500 ">
-        Hello world!
-      </h1>
+      <Index />
     </div>
   );
 }
