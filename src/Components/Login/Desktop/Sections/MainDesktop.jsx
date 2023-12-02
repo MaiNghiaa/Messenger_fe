@@ -12,7 +12,7 @@ export default class MainDesktop extends Component {
       marginTop: "50px",
     };
     return (
-      <div className="flex justify-between items-center mt-[112px] mx-[70px] ">
+      <div className="flex justify-between items-center mt-[112px] mx-[70px] mb-[88px] ">
         <div className="text-content w-[40%]">
           <h2
             className="title text-[75px] font-[600] mb-5"

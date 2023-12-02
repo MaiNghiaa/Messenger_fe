@@ -9,7 +9,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
-
         <Route path="/features" element={<Features />} />
         <Route path="/Desktop" element={<Desktop />} />
         <Route path="/features" element={<Features />} />
